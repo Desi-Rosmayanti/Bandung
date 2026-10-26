@@ -1,0 +1,103 @@
+body {
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+
+}
+
+ a:hover{
+    color: rgb(235, 115, 123);
+    font-weight: bold;
+ }
+
+ a:hover::after{
+    color: rgb(255, 115, 123);
+    content: "🦩";
+ }
+
+ nav a{
+    text-decoration: none;
+    color: white;
+ }
+
+ nav ul{
+   display: flex;
+   list-style: none;
+   justify-content: space-around;
+   padding: 20px;
+ }
+
+ body > header{
+   background-color: rgb(238, 128, 221);
+   color: white;
+   padding-top: 5px;
+   border-radius: 20px;
+ }
+
+ header h1{
+   text-align: center;
+   color: white;
+   padding-bottom: 2px;
+ }
+
+ header p{
+   text-align: center;
+   color: white; 
+   padding: 20px;
+ }
+
+ nav{
+   background-color: rgb(97, 2, 67);
+ }
+
+ main{
+  display: flex;
+  margin: 40px;
+  gap: 20px;;
+ }
+
+ #content{
+  /* flex 3 artinya pembagian luasnya 75% */
+  flex: 3;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ aside{
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ aside p{
+  color: black;
+ }
+
+ aside h2{
+  text-align: center;
+  color: rgb(97, 2, 67  );
+ }
+
+aside figure{
+  text-align: center;
+}
+
+aside section{
+  text-align: center;
+}
+
+aside th, td{
+  text-align: left;
+}
+
+#sejarah{
+  padding: 15px;
+}
+
+#geografis{
+  padding: 15px;
+}
+
+#wisata{
+  padding: 15px;
+}
+
