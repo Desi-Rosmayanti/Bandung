@@ -5,12 +5,12 @@ body {
 }
 
  a:hover{
-    color: rgb(235, 115, 123);
+    color: rgb(87, 92, 239);
     font-weight: bold;
  }
 
  a:hover::after{
-    color: rgb(255, 115, 123);
+    color: rgb(87, 92, 239);
     content: "🦩";
  }
 
@@ -27,7 +27,7 @@ body {
  }
 
  body > header{
-   background-color: rgb(238, 128, 221);
+   background-color: rgb(150, 190, 230);
    color: white;
    padding-top: 5px;
    border-radius: 20px;
@@ -37,16 +37,18 @@ body {
    text-align: center;
    color: white;
    padding-bottom: 2px;
+   margin-bottom: 0px;
  }
 
  header p{
    text-align: center;
    color: white; 
    padding: 20px;
+   margin-top: 0px;
  }
 
  nav{
-   background-color: rgb(97, 2, 67);
+   background-color: rgb(139, 176, 195);
  }
 
  main{
@@ -70,11 +72,13 @@ body {
 
  aside p{
   color: black;
+  margin-top: 0px;
  }
 
  aside h2{
   text-align: center;
-  color: rgb(97, 2, 67  );
+  color: black;
+  margin-bottom: 0px;
  }
 
 aside figure{
@@ -87,6 +91,7 @@ aside section{
 
 aside th, td{
   text-align: left;
+  padding: 5px;
 }
 
 #sejarah{
@@ -99,5 +104,12 @@ aside th, td{
 
 #wisata{
   padding: 15px;
+}
+
+footer{
+  background-color: rgb(139, 176, 195);
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
 }
 
